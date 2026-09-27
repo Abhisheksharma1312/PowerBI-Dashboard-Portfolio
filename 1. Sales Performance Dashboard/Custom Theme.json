@@ -1,0 +1,91 @@
+{
+  "name": "Jvalati Enterprises - Executive Blue",
+  "dataColors": [
+    "#2874F0",
+    "#5B9BFF",
+    "#9DBFFF",
+    "#C7D8FB",
+    "#FFB100",
+    "#0B1F3A",
+    "#8592A6",
+    "#D1D5DB"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#142845",
+  "foregroundNeutralSecondary": "#6B7280",
+  "tableAccent": "#2874F0",
+  "good": "#17B26A",
+  "bad": "#F04438",
+  "neutral": "#8592A6",
+  "maximum": "#2874F0",
+  "center": "#9DBFFF",
+  "minimum": "#EAF0FF",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#142845"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#142845"
+    },
+    "header": {
+      "fontSize": 20,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#142845"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#6B7280"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E4E7ED" } },
+            "radius": 8
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#142845" } },
+            "fontSize": 32,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#6B7280" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F5F6FA" } }
+          }
+        ]
+      }
+    }
+  }
+}
